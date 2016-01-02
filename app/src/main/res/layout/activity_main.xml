@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/show_window"
+            android:textSize="30sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginStart="2dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:hint="@string/show_window"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:gravity="center_vertical|end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num7"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num7"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/num8"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num8"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num9"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num9"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol1"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol1"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num4"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num4"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num5"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num5"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num6"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num6"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol2"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol2"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num1"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num1"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num2"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num2"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num3"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num3"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol3"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol3"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/symbol4"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol4"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/num0"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/num0"
+            android:background="@drawable/button_selector"
+            android:onClick="func_num"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol5"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol5"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol6"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol6"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/symbol8"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol8"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol9"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/symbol9"
+            android:background="@drawable/button_selector"
+            android:onClick="func_symbol"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/symbol7"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/symbol7"
+            android:background="@drawable/button_selector"
+            android:onClick="func_equal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

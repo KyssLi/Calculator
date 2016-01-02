@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Calculator_Sak</string>
+    <string name="show_window">0</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="symbol1">/</string>
+    <string name="symbol2">*</string>
+    <string name="symbol3">-</string>
+    <string name="symbol4">C</string>
+    <string name="symbol5">.</string>
+    <string name="symbol6">+</string>
+    <string name="symbol7">=</string>
+    <string name="menu_settings">about</string>
+    <string name="menu_picture">picture</string>
+    <string name="menu_minesweeper">minesweeper</string>
+    <string name="symbol8">(</string>
+    <string name="symbol9">)</string>
+</resources>

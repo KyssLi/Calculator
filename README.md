@@ -1,3 +1,3 @@
-# Calculator_Sak
+# Calculator
 A simple Android calculator.
 Try to write Android program.
